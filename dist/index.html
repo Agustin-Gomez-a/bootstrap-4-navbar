@@ -11,6 +11,10 @@
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 <body>
+<!--Boton para arriba-->
+  <span class="ir-arriba icon-arrow-up2"></span>
+
+
 <!-- partial:index.partial.html -->
 <nav class="navbar navbar-expand-custom navbar-mainbg ">
   <a class="text-center navbar-logo h3  " href="#">RECICLARG</a>
@@ -24,16 +28,16 @@
         <div class="right"></div>
       </div>
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0);"><i class="fas fa-tachometer-alt"></i>Puntos</a>
+        <a class="nav-link" href="#maps_scroll;"><i class="fas fa-tachometer-alt"></i>Puntos</a>
       </li>
       <li class="nav-item active">
         <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Conctacto</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0);"><i class="map-marker-alt"></i>Info contenedores</a>
+        <a id="nav-link" href="#section_our_solution"><i class="map-marker-alt"></i>Info contenedores</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="javascript:void(0);"><i class="fa-solid fa-users"></i>Nosotros</a>
+        <a class="nav-link" href="#nosotros";><i class="fa-solid fa-users"></i>Nosotros</a>
       </li>
 
       </li>
@@ -52,7 +56,7 @@
 <br><br><br><br><br>
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 
-<div class="section_our_solution">
+<div id="section_our_solution">
   <div class="row">
     <div class="col-lg-12 col-md-12 col-sm-12">
       <div class="our_solution_category">
@@ -60,7 +64,7 @@
           <div class="solution_card">
             <div class="hover_color_bubble"></div>
             <div class="so_top_icon">
-              <img src="/bootstrap-4-navbar/map-amarillo.svg" alt="">
+              <img src="/bootstrap-4-navbar/svg/map-amarillo.svg" alt="">
             </div>
             <div class="solu_title">
               <h3>Contenedor Amarillo</h3>
@@ -75,7 +79,7 @@
           <div class="solution_card">
             <div class="hover_color_bubble"></div>
             <div class="so_top_icon">
-              <img src="/bootstrap-4-navbar/map-azul.svg" alt="">
+              <img src="/bootstrap-4-navbar/svg/map-azul.svg" alt="">
             </div>
             <div class="solu_title">
               <h3>Contenedor Azul</h3>
@@ -93,7 +97,7 @@
           <div class="solution_card">
             <div class="hover_color_bubble"></div>
             <div class="so_top_icon">
-              <img src="/bootstrap-4-navbar/map-verde.svg" alt="">
+              <img src="/bootstrap-4-navbar/svg/map-verde.svg" alt="">
             </div>
             
             <div class="solu_title">
@@ -103,7 +107,7 @@
               <p>
                 El contenedor verde, también conocido como iglú verde, es el destinado para depositar vidrio.
               </p>
-              <button type="button" class="read_more_btn">Saber Más</button>
+              <a href="#section_our_solution"><button type="button" class="read_more_btn">Saber Más</button></a>
             </div>
           </div>
           
@@ -116,14 +120,15 @@
   </div>
 </div>
 
+<div id="maps_scroll">
 <div class="maps">
 
 
-  <iframe  src="https://www.google.com/maps/d/u/0/embed?mid=1kTE43ypfuDmIboMa7kY67uEs3p-WSyg&ehbc=2E312F" width="80%" height="400" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
-
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1kTE43ypfuDmIboMa7kY67uEs3p-WSyg&ehbc=2E312F" width="80%" height="400" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
+</div>
 </div>
 
-<h4 class="text-low">A continuación, veremos los diferentes contenedores de reciclaje que existen según su color.</p>
+
 </div>
 <!-- Content here -->
 
@@ -141,6 +146,7 @@
 
 <!-- info -->
 <section id="team" class="pb-5">
+  <h4 class="text-low">A continuación, veremos los diferentes contenedores de reciclaje que existen según su color.</p>
   <div class="container">
       <div class="row">
           <div class="col-xs-12 col-sm-6 col-md-4">
@@ -149,7 +155,7 @@
                       <div class="frontside">
                           <div class="card">
                               <div class="card-body text-center">
-                                  <p><img class=" img-fluid" src="/bootstrap-4-navbar/map-amarillo.svg" alt="card image"></p>
+                                  <p><img class=" img-fluid" src="/bootstrap-4-navbar/svg/map-amarillo.svg" alt="card image"></p>
                                   <h4 class="card-title">Contenedor Amarillo</h4>
                                   <p class="card-text">El contenedor amarillo es el adecuado para reciclar plásticos, latas y envases.</p>
                                   <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -174,7 +180,7 @@
                       <div class="frontside">
                           <div class="card">
                               <div class="card-body text-center">
-                                  <p><img class=" img-fluid" src="/bootstrap-4-navbar/map-verde.svg" alt="card image"></p>
+                                  <p><img class=" img-fluid" src="/bootstrap-4-navbar/svg/map-verde.svg" alt="card image"></p>
                                   <h4 class="card-title">Contenedor Verde</h4>
                                   <p class="card-text">El contenedor verde, también conocido como iglú verde, es el destinado para depositar vidrio.</p>
                                   <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -199,7 +205,7 @@
                     <div class="frontside">
                         <div class="card">
                             <div class="card-body text-center">
-                                <p><img class=" img-fluid" src="/bootstrap-4-navbar/map-azul.svg" alt="card image"></p>
+                                <p><img class=" img-fluid" src="/bootstrap-4-navbar/svg/map-azul.svg" alt="card image"></p>
                                 <h4 class="card-title">Contenedor Azul</h4>
                                 <p class="card-text">El contenedor azul es el correspondiente para depositar papel y cartón.</p>
                                 <a href="#" class="btn btn-primary btn-sm"><i class="fa fa-plus"></i></a>
@@ -226,11 +232,12 @@
 
 
 <!-- info -->
+<div id="nosotros">
 <div class="bg-light py-5">
   <div class="container py-5">
     <div class="row mb-4">
       <div class="col-lg-12">
-        <h2 class="display-4 font-weight-light">¡Quienes Somos?</h2>
+        <h2 class="display-5 font-weight-light">¡Quienes Somos?</h2>
         <p class="font-italic text-muted"> Somos un grupo de estudiantes de programación de la Facultad Tecnologica de San Rafael, el cual somos 9 integrantes de diferentes provincias.
           Actualmente estamos presentando este proyecto a modo de que sea ampliable en un futuro.
           Procuramos con esto realizar un cambio que impacte en la comunidad de la provincia de San Rafael y a su vez que tambien sea escalable para todo el país.</p>
@@ -306,6 +313,7 @@
     </div>
   </div>
 </div>
+</div>
    <!-- End teams-->
 
 
@@ -315,7 +323,7 @@
 
     <!-- Footer -->
     <footer id="footer-img">
-      <img src="/bootstrap-4-navbar/img-footer-png.png" class="card-img-top">
+      <img src="/bootstrap-4-navbar/img/img-footer-png.png" class="card-img-top">
     </footer>
 <footer class="footer-distributed">
  
@@ -325,7 +333,7 @@
 <div class="footer-left">
   <div class="footer-right">
   
-    <img src="/bootstrap-4-navbar/utn-logo.png" class="card-img-top" alt="...">
+    <img src="/bootstrap-4-navbar/svg/utn-logo.png" class="card-img-top" alt="...">
    
   </div>
   <p class="footer-links"> 
@@ -336,6 +344,41 @@
 </footer>
   
 
+
+
+<!-- Jquery de scrollbar -->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  // Add smooth scrolling to all links
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+
+
+
+<!-- End Jquery-->
 <!-- End of .container -->
 </body>
 <script src='https://code.jquery.com/jquery-3.4.1.min.js'></script>

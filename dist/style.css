@@ -10,14 +10,32 @@ html{
 
 body {
   font-family: "Roboto", sans-serif;
-  background-color: #F9F7F7;
+  background-attachment:fixed;
+  background-image: url("/bootstrap-4-navbar/img/Imagen3.png" );
+  backdrop-filter: blur(6px);
+ 
+
 
   }
+
 * {
   
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
+}
+.ir-arriba {
+	display:none;
+	padding:20px;
+	background:#0f0202;
+	font-size:20px;
+	color:#fff;
+	cursor:pointer;
+	position:sticky;
+	bottom:20px;
+	right:20px;
+  display: flex;
   
 }
 
@@ -261,7 +279,7 @@ top: 65px;
 
 /* CARDS */
 
-.section_our_solution .row {
+#section_our_solution .row {
   align-items: center;
 }
 
@@ -464,7 +482,6 @@ iframe{
   /* 
  
   box-shadow: 0px 15px 25px rgba(123, 111, 111, 0.761); */
-  background: #fff;
 
 
   margin: 3rem;
@@ -492,7 +509,7 @@ iframe{
 
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 #team {
-    background: #E5E5E5 !important;
+    background: #F9F7F7 !important;
 }
 
 .btn-primary:hover,
