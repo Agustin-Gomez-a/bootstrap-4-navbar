@@ -74,7 +74,7 @@ $(document).ready(function(){
 			$('.ir-arriba').slideUp(300);
 		}
 	});
-
+  feather.replace();
 });
 
 // Add active class on another page linked
