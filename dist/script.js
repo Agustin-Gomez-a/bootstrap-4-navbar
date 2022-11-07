@@ -77,6 +77,12 @@ $(document).ready(function(){
   feather.replace();
 });
 
+
+//GoTop
+
+// End GoTop
+
+
 // Add active class on another page linked
 // ==========================================
 // $(window).on('load',function () {
