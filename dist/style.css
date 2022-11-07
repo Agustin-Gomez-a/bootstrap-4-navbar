@@ -669,6 +669,91 @@ social-link {
 
 
 
+/*FORM*/
+
+
+
+  
+  #form{
+     color: white;
+     background-color: #3F72AF;
+     border-radius: 5px;
+    width: 60%;
+     padding: 40px;
+     margin: 150px auto;
+     -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+     -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+     box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
+      }
+     p{
+        font-size: 0.9em;
+        color: #F9F7F7;
+     }
+     
+     button{
+        width: 100%;
+   
+        color: grey;
+        margin-top: 20px;
+   
+     }
+     .h3-title{
+      font-size: 32px;
+  
+     }
+     
+     .form-group{
+        margin: 15px auto;
+  
+          
+         }
+ 
+        label{
+           font-weight: bold;
+           font-size: 0.9em;
+        }
+        
+        .input-group{
+           border-radius: 5px;
+           -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+           -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
+           box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35); }
+           
+           .input-group-addon{
+              border: none;
+              border-right: 1px solid rgba(0,0,0,0.2);
+           }
+           
+           input{
+              padding-left: 10px;
+           }
+           
+           i{
+              color: #009EDF;
+           }
+        
+        
+        input{
+           padding: 3px;
+           width: 100%;
+           border: none;
+           border-radius: 0 5px 5px 0;
+        }
+     }
+  }
+  .btn.btn-sucess{
+    background-color:#0f0202;
+    color: #0f0202;
+  }
+
+/*END FORM*/
+
+
+
+
+
+
+
 /*End Teams*/
 
 /* Media Queries */
@@ -691,5 +776,6 @@ social-link {
  #iframe-map{
  background-color: red;
  }
+
 
 }
