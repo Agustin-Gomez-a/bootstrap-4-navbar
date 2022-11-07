@@ -28,11 +28,11 @@
         <div class="left"></div>
         <div class="right"></div>
       </div>
-      <li class="nav-item">
+      <li class="nav-item  active">
         <a class="nav-link" href="#maps_scroll;"><i class="fas fa-tachometer-alt"></i>Puntos</a>
       </li>
-      <li class="nav-item active">
-        <a class="nav-link" href="javascript:void(0);"><i class="far fa-address-book"></i>Conctacto</a>
+      <li class="nav-item">
+        <a class="nav-link" href="#container-fluid">a<i class="far fa-address-book"></i>Conctacto</a>
       </li>
       <li class="nav-item">
         <a id="nav-link" href="#section_our_solution"><i class="map-marker-alt"></i>Info contenedores</a>
@@ -74,7 +74,8 @@
               <p>
                 El contenedor amarillo es el adecuado para reciclar plásticos, latas y envases.
               </p>
-              <button type="button" class="read_more_btn">Saber Más</button>
+              <a href="#team">
+              <button type="button" class="read_more_btn">Saber Más</button></a>
             </div>
           </div>
           <div class="solution_card">
@@ -88,8 +89,9 @@
             <div class="solu_description">
               <p>
                 El contenedor azul es el correspondiente para depositar papel y cartón.
+                <a href="#team">
               </p>
-              <button type="button" class="read_more_btn">Saber Más</button>
+              <button type="button" class="read_more_btn">Saber Más</button></a>
             </div>
           </div>
         </div>
@@ -107,8 +109,9 @@
             <div class="solu_description">
               <p>
                 El contenedor verde, también conocido como iglú verde, es el destinado para depositar vidrio.
+              <a href="#team">
               </p>
-              <a href="#section_our_solution"><button type="button" class="read_more_btn">Saber Más</button></a>
+              <button type="button" class="read_more_btn">Saber Más</button></a>
             </div>
           </div>
           
@@ -329,17 +332,17 @@
 
 
 <!--end formulario contacto-->
-<div class="container-fluid">
+<div id="container-fluid">
   <form id="form">
     <h3 class="h3-title">Dejanos tu Consulta:</h3>
     <br>
  
-    <div class="form-group">
+    <div class="form-group"id="form-group">
        <label for="name">Nombre y Apellido</label>
        <br />
-       <div class="input-group">
+       <div id="input-group">
           <div class="input-group-addon"></div>
-          <input type="text" id="name" placeholder="Enter Your Name"/>
+          <input type="text" id="name" placeholder="Ingrese su nombre y apellido"/>
           </div>
        </div>
     

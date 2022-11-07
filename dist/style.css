@@ -640,22 +640,11 @@ section .section-title {
 
 /*Teams*/
 
-social-link {
-  width: 30px;
-  height: 30px;
-  border: 1px solid rgb(160, 59, 59);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: red;
-  border-radius: 50%;
-  transition: all 0.3s;
-  font-size: 0.9rem;
-}
+
 
 .social-link:hover,
 .social-link:focus {
-  background: #ddd;
+  background: rgb(182, 5, 5);
   text-decoration: none;
   color: #555;
 }
@@ -686,8 +675,8 @@ social-link {
      box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.75);
       }
      p{
-        font-size: 0.9em;
-        color: #F9F7F7;
+        font-size: 1rem;
+        color: #000000;
      }
      
      button{
@@ -713,7 +702,7 @@ social-link {
            font-size: 0.9em;
         }
         
-        .input-group{
+        #input-group{
            border-radius: 5px;
            -webkit-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
            -moz-box-shadow: -1px 3px 18px 0px rgba(0,0,0,0.35);
